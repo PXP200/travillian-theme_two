@@ -24,3 +24,22 @@ Updated: 2022-06-03 14:09:27
 }
 
 
+.footable-pagination-wrapper .pagination > li > a, .footable-pagination-wrapper .pagination > li > span {
+    position: relative !important;
+    float: left !important;
+    padding: 6px 12px !important;
+    margin-left: -1px !important;
+    line-height: 1.42857143 !important;
+    color: #337ab7 !important;
+    text-decoration: none !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+}
+
+.footable-pagination-wrapper .pagination > .active > a, .footable-pagination-wrapper .pagination > .active > span,.footable-pagination-wrapper .pagination > .active > a:hover,.footable-pagination-wrapper .pagination > .active > span:hover,.footable-pagination-wrapper .pagination > .active > a:focus,.footable-pagination-wrapper .pagination > .active > span:focus {
+    z-index: 3 !important;
+    color: #fff !important;
+    cursor: default !important;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
