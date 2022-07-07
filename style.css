@@ -12,3 +12,15 @@ Updated: 2022-06-03 14:09:27
 */
 
 
+/* constant contact */
+.constant-contact-widget-form
+ input[type=text], .constant-contact-widget-form
+ input[type=email] {
+    border: 1px solid rgb(85, 85, 85);
+    color: #4e4e4e;
+    padding: 5px 10px;
+    height: auto;
+    width:100% !important;
+}
+
+
