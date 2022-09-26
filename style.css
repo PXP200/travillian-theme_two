@@ -10,7 +10,16 @@ Version: 1.0.4.1654265367
 Updated: 2022-06-03 14:09:27
 
 */
-
+/* hero update */
+#featured-content .featured-left {
+    float: left;
+    width: 550px;
+    margin-bottom: 20px;
+}
+#featured-content .featured-right {
+    float: right;
+    width: 295px;
+}
 
 /* constant contact */
 .constant-contact-widget-form
@@ -43,3 +52,4 @@ Updated: 2022-06-03 14:09:27
     background-color: #337ab7 !important;
     border-color: #337ab7 !important;
 }
+
