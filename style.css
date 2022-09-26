@@ -11,14 +11,15 @@ Updated: 2022-06-03 14:09:27
 
 */
 /* hero update */
-#featured-content .featured-left {
+body #featured-content .featured-left {
     float: left;
-    width: 550px;
-    margin-bottom: 20px;
+    width: 550px !important;
+    margin-bottom: 20px !important;
 }
-#featured-content .featured-right {
+
+body #featured-content .featured-right {
     float: right;
-    width: 295px;
+    width: 295px !important;
 }
 
 /* constant contact */
@@ -52,4 +53,3 @@ Updated: 2022-06-03 14:09:27
     background-color: #337ab7 !important;
     border-color: #337ab7 !important;
 }
-
