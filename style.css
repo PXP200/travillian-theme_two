@@ -1,14 +1,79 @@
 /*
 Theme Name: BlogSite Pro Child
 Theme URI: https://wpenjoy.com/themes/blogsite-pro
-Template: blogsite-pro
+Template: blogsite-pro/blogsite-pro
 Author: WPEnjoy
 Author URI: https://wpenjoy.com
 Description: BlogSite Pro is a modern and clean WordPress theme for content-based blogs and websites. It provides a magnificent showcase for your content, perfect for personal bloggers and content creators. Theme Demo: https://demo.wpenjoy.com/blogsite-pro/ Documention: https://wpenjoy.com/documentation/blogsite-pro/
 Tags: one-column,two-columns,right-sidebar,flexible-header,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,sticky-post,theme-options,threaded-comments,translation-ready
-Version: 1.0.4.1654265367
-Updated: 2022-06-03 14:09:27
+Version: 1.0.4.1663967638
+Updated: 2022-09-23 21:13:58
 
 */
 
+
+
+body #featured-content .featured-left {
+    float: left;
+    width: 550px !important;
+    margin-bottom: 20px !important;
+}
+
+body #featured-content .featured-right {
+    float: right;
+    width: 295px !important;
+}
+
+@media only screen and (max-width: 1175px) {
+    body #featured-content .featured-left {
+        float: none;
+        width:100% !important;
+        margin-bottom: 20px !important;
+        
+    }
+    body #featured-content .featured-right {
+        float: right;
+        width: 100% !important;
+        
+    }
+  }
+@media only screen and (max-width: 1175px) {
+  
+    body #featured-content .featured-right {
+       display: none;
+        
+    }
+  }
+
+/* constant contact */
+.constant-contact-widget-form
+ input[type=text], .constant-contact-widget-form
+ input[type=email] {
+    border: 1px solid rgb(85, 85, 85);
+    color: #4e4e4e;
+    padding: 5px 10px;
+    height: auto;
+    width:100% !important;
+}
+
+
+.footable-pagination-wrapper .pagination > li > a, .footable-pagination-wrapper .pagination > li > span {
+    position: relative !important;
+    float: left !important;
+    padding: 6px 12px !important;
+    margin-left: -1px !important;
+    line-height: 1.42857143 !important;
+    color: #337ab7 !important;
+    text-decoration: none !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+}
+
+.footable-pagination-wrapper .pagination > .active > a, .footable-pagination-wrapper .pagination > .active > span,.footable-pagination-wrapper .pagination > .active > a:hover,.footable-pagination-wrapper .pagination > .active > span:hover,.footable-pagination-wrapper .pagination > .active > a:focus,.footable-pagination-wrapper .pagination > .active > span:focus {
+    z-index: 3 !important;
+    color: #fff !important;
+    cursor: default !important;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
 
