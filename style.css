@@ -77,3 +77,9 @@ body #featured-content .featured-right {
     border-color: #337ab7 !important;
 }
 
+
+body .ctct-form-wrapper .ctct-form .ctct-label-left label, body .ctct-form-wrapper .ctct-form .ctct-label-right label {
+    display: inline-block !important;
+    width: 400px !important;
+    max-width: 400px !important;
+}
